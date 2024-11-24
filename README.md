@@ -1,3 +1,3 @@
 # Sentiment_Analysis_on_Drug
 ABSTRACT
-This project utilizes the Drug Review Dataset in terms of analyzing user reviews of drugs for a variety of health conditions. The main objective is the classification of user sentiments regarding textual reviews into predefined categories and drug recommendation based on ratings from users. Advanced machine learning models like LightGBM, XGBoost, CatBoost, and Naive Bayes are used in evaluating their performance for sentiment classification tasks. As shown by the analysis, LightGBM has the highest accuracy at 74%, which makes it suitable for the dataset. Beyond that, a recommendation system was designed to provide top-rated medications for specific conditions, thus improving user guidance in health decisions.
+
