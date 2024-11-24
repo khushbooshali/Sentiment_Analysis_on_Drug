@@ -41,11 +41,14 @@ RESULTS
 LightGBM :
 Accurately at 74%.
 Got the best trade-off between precision and recall. This is the most dependable model.
+
 XGBoost:
 Accuracy was just 58% which is not better than LightGBM.
 Had higher sensitivity for positive class classification, but it was more prone to false positives.
+
 CatBoost:
 Tied with XGBoost at 58% and had lower TP Rates indicating lesser sensitivity.
+
 Naive Bayes:
 Accurately, at a lowest accuracy of around 45%. The model failed to deal with the complexity of this dataset and is therefore inappropriate for
 
