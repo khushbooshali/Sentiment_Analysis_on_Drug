@@ -19,21 +19,28 @@ Useful Count: Number of users who found the review useful
 Data Preprocessing:- 
 
 Null values were removed and retained only meaningful reviews
-
 Label encoding is used for categorical fields, which includes drug names and conditions, to convert them into numeric representations
-
 Textual data from the review is analyzed and cleaned up without doing stopword removal. This ensures preserving the sentiment of the reviews
+
 Sentiment Polarity Analysis :- 
 TextBlob: it calculates polarity for all reviews, ranging from -1 (negative) to 1 (positive). Negation handling ensures accurate assignment of polarity
+
 Feature Engineering :-
 Calculated weighted score using review scores to rank those drugs with the highest reviews ratings.
 Visualized feature correlation through heatmap to find feature dependencies.
-Training and Testing: Training and testing of multiple machine learning models that classify the sentiment are performed below:
+
+Training and Testing:- Training and testing of multiple machine learning models that classify the sentiment are performed below:
+
 LightGBM- High-efficiency scalability.
+
 XGBoost-Best gradient boosting with regularization.
+
 CatBoost-Machine learning designed for categorical data with minimal preprocessing.
+
 Naive Bayes-Probability based classifier to obtain baseline performance.
+
 Models were ranked using accuracy, precision, recall, and F1-score metrics.
+
 Recommendation System:
 System for providing highest rated medicines for a particular disease based on the weighted ratings.
 
