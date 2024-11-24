@@ -17,8 +17,11 @@ Useful Count: Number of users who found the review useful
 ### METHODOLOGY
 
 Data Preprocessing:- 
+
 Null values were removed and retained only meaningful reviews
+
 Label encoding is used for categorical fields, which includes drug names and conditions, to convert them into numeric representations
+
 Textual data from the review is analyzed and cleaned up without doing stopword removal. This ensures preserving the sentiment of the reviews
 Sentiment Polarity Analysis :- 
 TextBlob: it calculates polarity for all reviews, ranging from -1 (negative) to 1 (positive). Negation handling ensures accurate assignment of polarity
