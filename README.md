@@ -46,7 +46,6 @@ System for providing highest rated medicines for a particular disease based on t
 
 ### RESULTS
 
-RESULTS
 
 LightGBM :
 Accurately at 74%.
